@@ -24,7 +24,7 @@ function App() {
                     <h3>Join A Chat</h3>
                     <input
                         type="text"
-                        placeholder="John..."
+                        placeholder="Your Name..."
                         onChange={(event) => {
                             setUsername(event.target.value);
                         }}
@@ -35,7 +35,7 @@ function App() {
                         onChange={(event) => {
                             setRoom(event.target.value);
                         }}
-                    /> 
+                    />
                     <button onClick={joinRoom}>Join A Room</button>
                 </div>
             ) : (
